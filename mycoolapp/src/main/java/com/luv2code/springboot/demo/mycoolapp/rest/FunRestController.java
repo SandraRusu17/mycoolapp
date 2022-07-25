@@ -12,4 +12,9 @@ public class FunRestController {
     public String sayHello(){
         return "Hello World! Time on server is : " + LocalDateTime.now();
     }
+
+    @GetMapping("/workout")
+    public String getDailyWorkout(){
+        return "Run 5km!";
+    }
 }
