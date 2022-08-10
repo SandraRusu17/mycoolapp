@@ -1,5 +1,6 @@
-package com.luv2code.springboot.demo.mycoolapp.dao;
+package com.luv2code.springboot.demo.mycoolapp.dao.hibernate;
 
+import com.luv2code.springboot.demo.mycoolapp.dao.EmployeeDAO;
 import com.luv2code.springboot.demo.mycoolapp.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
@@ -12,7 +13,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
-public class EmployeeDAOHibernateImpl implements EmployeeDAO{
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 
     // define field for entity manager
 
